@@ -3,18 +3,18 @@
     "test": {
       "low_reverberation": {
         "audio_path": {
-          "observation": "bss_data/low_reverberation/observation.wav",
+          "observation": "${DB_DIR}/low_reverberation/observation.wav",
           "speech_image": [
-            "bss_data/low_reverberation/speech_image_0.wav",
-            "bss_data/low_reverberation/speech_image_1.wav"
+            "${DB_DIR}/low_reverberation/speech_image_0.wav",
+            "${DB_DIR}/low_reverberation/speech_image_1.wav"
           ],
           "speech_reverberation_direct": [
-            "bss_data/low_reverberation/speech_reverberation_direct_0.wav",
-            "bss_data/low_reverberation/speech_reverberation_direct_1.wav"
+            "${DB_DIR}/low_reverberation/speech_reverberation_direct_0.wav",
+            "${DB_DIR}/low_reverberation/speech_reverberation_direct_1.wav"
           ],
           "speech_source": [
-            "bss_data/low_reverberation/speech_source_0.wav",
-            "bss_data/low_reverberation/speech_source_1.wav"
+            "${DB_DIR}/low_reverberation/speech_source_0.wav",
+            "${DB_DIR}/low_reverberation/speech_source_1.wav"
           ]
         },
         "gender": [
@@ -106,18 +106,18 @@
       },
       "reverberation": {
         "audio_path": {
-          "observation": "bss_data/reverberation/observation.wav",
+          "observation": "${DB_DIR}/reverberation/observation.wav",
           "speech_image": [
-            "bss_data/reverberation/speech_image_0.wav",
-            "bss_data/reverberation/speech_image_1.wav"
+            "${DB_DIR}/reverberation/speech_image_0.wav",
+            "${DB_DIR}/reverberation/speech_image_1.wav"
           ],
           "speech_reverberation_direct": [
-            "bss_data/reverberation/speech_reverberation_direct_0.wav",
-            "bss_data/reverberation/speech_reverberation_direct_1.wav"
+            "${DB_DIR}/reverberation/speech_reverberation_direct_0.wav",
+            "${DB_DIR}/reverberation/speech_reverberation_direct_1.wav"
           ],
           "speech_source": [
-            "bss_data/reverberation/speech_source_0.wav",
-            "bss_data/reverberation/speech_source_1.wav"
+            "${DB_DIR}/reverberation/speech_source_0.wav",
+            "${DB_DIR}/reverberation/speech_source_1.wav"
           ]
         },
         "gender": [
