@@ -84,8 +84,7 @@
           ]
         ],
         "snr": 29.749852569493584,
-        "sound_decay_time": 0.354,
-        "source_decay_time": 0,
+        "sound_decay_time": 0,
         "source_id": [
           "4k0c0301",
           "4k6c030t"
