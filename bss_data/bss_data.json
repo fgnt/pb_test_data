@@ -3,14 +3,19 @@
     "test": {
       "low_reverberation": {
         "audio_path": {
+          "noise_image": "${DB_DIR}/low_reverberation/noise_image.wav",
           "observation": "${DB_DIR}/low_reverberation/observation.wav",
           "speech_image": [
             "${DB_DIR}/low_reverberation/speech_image_0.wav",
             "${DB_DIR}/low_reverberation/speech_image_1.wav"
           ],
-          "speech_reverberation_direct": [
-            "${DB_DIR}/low_reverberation/speech_reverberation_direct_0.wav",
-            "${DB_DIR}/low_reverberation/speech_reverberation_direct_1.wav"
+          "speech_reverberation_early": [
+            "${DB_DIR}/low_reverberation/speech_reverberation_early_0.wav",
+            "${DB_DIR}/low_reverberation/speech_reverberation_early_1.wav"
+          ],
+          "speech_reverberation_tail": [
+            "${DB_DIR}/low_reverberation/speech_reverberation_tail_0.wav",
+            "${DB_DIR}/low_reverberation/speech_reverberation_tail_1.wav"
           ],
           "speech_source": [
             "${DB_DIR}/low_reverberation/speech_source_0.wav",
@@ -106,14 +111,19 @@
       },
       "reverberation": {
         "audio_path": {
+          "noise_image": "${DB_DIR}/reverberation/noise_image.wav",
           "observation": "${DB_DIR}/reverberation/observation.wav",
           "speech_image": [
             "${DB_DIR}/reverberation/speech_image_0.wav",
             "${DB_DIR}/reverberation/speech_image_1.wav"
           ],
-          "speech_reverberation_direct": [
-            "${DB_DIR}/reverberation/speech_reverberation_direct_0.wav",
-            "${DB_DIR}/reverberation/speech_reverberation_direct_1.wav"
+          "speech_reverberation_early": [
+            "${DB_DIR}/reverberation/speech_reverberation_early_0.wav",
+            "${DB_DIR}/reverberation/speech_reverberation_early_1.wav"
+          ],
+          "speech_reverberation_tail": [
+            "${DB_DIR}/reverberation/speech_reverberation_tail_0.wav",
+            "${DB_DIR}/reverberation/speech_reverberation_tail_1.wav"
           ],
           "speech_source": [
             "${DB_DIR}/reverberation/speech_source_0.wav",
